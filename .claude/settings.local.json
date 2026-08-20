@@ -168,7 +168,10 @@
       "mcp__claude-in-chrome__switch_browser",
       "mcp__claude-in-chrome__tabs_close_mcp",
       "PowerShell($env:PYTHONIOENCODING = \"utf-8\"; cd \"C:\\\\Users\\\\andre\\\\OneDrive\\\\Escritorio\\\\Primer agente CLAUDE\"; py execution/preparar_imagenes_wp.py --slug test-gemini --banner-local \"$env:USERPROFILE\\\\Downloads\\\\gemini_test_image.jpg\" --section2-local \"$env:USERPROFILE\\\\Downloads\\\\gemini_test_image.jpg\")",
-      "PowerShell(Remove-Item \"$env:USERPROFILE\\\\Downloads\\\\gemini_test_image.jpg\" -Confirm:$false)"
+      "PowerShell(Remove-Item \"$env:USERPROFILE\\\\Downloads\\\\gemini_test_image.jpg\" -Confirm:$false)",
+      "Bash(PYTHONIOENCODING=utf-8 python -c ' *)",
+      "WebFetch(domain:www.pexels.com)",
+      "Bash(git add *)"
     ]
   }
 }
